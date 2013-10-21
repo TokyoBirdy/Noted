@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E3AB96118138C32002326C2 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3AB96018138C32002326C2 /* DAKeyboardControl.m */; };
+		2E3AB9651813A757002326C2 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AB9631813A757002326C2 /* camera@2x.png */; };
+		2E3AB9661813A757002326C2 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AB9641813A757002326C2 /* camera.png */; };
+		2E3AB9691813ADF5002326C2 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AB9671813ADF5002326C2 /* photo@2x.png */; };
+		2E3AB96A1813ADF5002326C2 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AB9681813ADF5002326C2 /* photo.png */; };
+		2E3AB96D1813AED6002326C2 /* camera24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AB96B1813AED6002326C2 /* camera24@2x.png */; };
+		2E3AB96E1813AED6002326C2 /* camera24.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E3AB96C1813AED6002326C2 /* camera24.png */; };
+		2E847540180FBFD900A84505 /* KeyAcc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E84753E180FBDBA00A84505 /* KeyAcc.xib */; };
 		2E84A651180E412C007D18F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84A650180E412C007D18F6 /* Foundation.framework */; };
 		2E84A653180E412C007D18F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84A652180E412C007D18F6 /* CoreGraphics.framework */; };
 		2E84A655180E412C007D18F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84A654180E412C007D18F6 /* UIKit.framework */; };
@@ -19,6 +27,15 @@
 		2E84A66C180E412C007D18F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84A654180E412C007D18F6 /* UIKit.framework */; };
 		2E84A674180E412C007D18F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E84A672180E412C007D18F6 /* InfoPlist.strings */; };
 		2E84A676180E412C007D18F6 /* Noted7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A675180E412C007D18F6 /* Noted7Tests.m */; };
+		2E84A686180E41A1007D18F6 /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A681180E41A1007D18F6 /* PKRevealController.m */; };
+		2E84A687180E41A1007D18F6 /* PKRevealControllerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A683180E41A1007D18F6 /* PKRevealControllerContainerView.m */; };
+		2E84A688180E41A1007D18F6 /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A685180E41A1007D18F6 /* UIViewController+PKRevealController.m */; };
+		2E84A68C180E4280007D18F6 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A68B180E4280007D18F6 /* FrontViewController.m */; };
+		2E84A68F180E4A41007D18F6 /* LeftMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A68E180E4A41007D18F6 /* LeftMasterViewController.m */; };
+		2E84A692180E4A6B007D18F6 /* RightSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A691180E4A6B007D18F6 /* RightSettingViewController.m */; };
+		2E84A696180E52E3007D18F6 /* CustomTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A695180E52E3007D18F6 /* CustomTextCell.m */; };
+		2E84A699180E55CD007D18F6 /* CustomCellContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A698180E55CD007D18F6 /* CustomCellContent.m */; };
+		2E84A69F180E585C007D18F6 /* CustomImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E84A69E180E585C007D18F6 /* CustomImageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E3AB95F18138C32002326C2 /* DAKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKeyboardControl.h; sourceTree = "<group>"; };
+		2E3AB96018138C32002326C2 /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyboardControl.m; sourceTree = "<group>"; };
+		2E3AB9631813A757002326C2 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		2E3AB9641813A757002326C2 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		2E3AB9671813ADF5002326C2 /* photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@2x.png"; sourceTree = "<group>"; };
+		2E3AB9681813ADF5002326C2 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		2E3AB96B1813AED6002326C2 /* camera24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera24@2x.png"; sourceTree = "<group>"; };
+		2E3AB96C1813AED6002326C2 /* camera24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera24.png; sourceTree = "<group>"; };
+		2E84753E180FBDBA00A84505 /* KeyAcc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyAcc.xib; sourceTree = "<group>"; };
 		2E84A64D180E412C007D18F6 /* Noted7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noted7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E84A650180E412C007D18F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E84A652180E412C007D18F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +74,24 @@
 		2E84A671180E412C007D18F6 /* Noted7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Noted7Tests-Info.plist"; sourceTree = "<group>"; };
 		2E84A673180E412C007D18F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E84A675180E412C007D18F6 /* Noted7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Noted7Tests.m; sourceTree = "<group>"; };
+		2E84A680180E41A0007D18F6 /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealController.h; sourceTree = "<group>"; };
+		2E84A681180E41A1007D18F6 /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealController.m; sourceTree = "<group>"; };
+		2E84A682180E41A1007D18F6 /* PKRevealControllerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealControllerContainerView.h; sourceTree = "<group>"; };
+		2E84A683180E41A1007D18F6 /* PKRevealControllerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealControllerContainerView.m; sourceTree = "<group>"; };
+		2E84A684180E41A1007D18F6 /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
+		2E84A685180E41A1007D18F6 /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
+		2E84A68A180E4280007D18F6 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		2E84A68B180E4280007D18F6 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		2E84A68D180E4A41007D18F6 /* LeftMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMasterViewController.h; sourceTree = "<group>"; };
+		2E84A68E180E4A41007D18F6 /* LeftMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMasterViewController.m; sourceTree = "<group>"; };
+		2E84A690180E4A6B007D18F6 /* RightSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSettingViewController.h; sourceTree = "<group>"; };
+		2E84A691180E4A6B007D18F6 /* RightSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSettingViewController.m; sourceTree = "<group>"; };
+		2E84A694180E52E3007D18F6 /* CustomTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextCell.h; sourceTree = "<group>"; };
+		2E84A695180E52E3007D18F6 /* CustomTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextCell.m; sourceTree = "<group>"; };
+		2E84A697180E55CD007D18F6 /* CustomCellContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellContent.h; sourceTree = "<group>"; };
+		2E84A698180E55CD007D18F6 /* CustomCellContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellContent.m; sourceTree = "<group>"; };
+		2E84A69D180E585C007D18F6 /* CustomImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageCell.h; sourceTree = "<group>"; };
+		2E84A69E180E585C007D18F6 /* CustomImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +118,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E3AB95E18138C12002326C2 /* KeyboardControl */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AB95F18138C32002326C2 /* DAKeyboardControl.h */,
+				2E3AB96018138C32002326C2 /* DAKeyboardControl.m */,
+			);
+			path = KeyboardControl;
+			sourceTree = "<group>";
+		};
+		2E3AB9621813A738002326C2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2E3AB9671813ADF5002326C2 /* photo@2x.png */,
+				2E3AB9681813ADF5002326C2 /* photo.png */,
+				2E3AB9631813A757002326C2 /* camera@2x.png */,
+				2E3AB9641813A757002326C2 /* camera.png */,
+				2E3AB96B1813AED6002326C2 /* camera24@2x.png */,
+				2E3AB96C1813AED6002326C2 /* camera24.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2E84753D180FB8F800A84505 /* CustomToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				2E84753E180FBDBA00A84505 /* KeyAcc.xib */,
+			);
+			path = CustomToolBar;
+			sourceTree = "<group>";
+		};
 		2E84A644180E412C007D18F6 = {
 			isa = PBXGroup;
 			children = (
+				2E3AB95E18138C12002326C2 /* KeyboardControl */,
+				2E84A67F180E41A0007D18F6 /* Controller */,
+				2E3AB9621813A738002326C2 /* Images */,
 				2E84A656180E412C007D18F6 /* Noted7 */,
+				2E84753D180FB8F800A84505 /* CustomToolBar */,
 				2E84A66F180E412C007D18F6 /* Noted7Tests */,
 				2E84A64F180E412C007D18F6 /* Frameworks */,
 				2E84A64E180E412C007D18F6 /* Products */,
@@ -109,7 +187,14 @@
 			children = (
 				2E84A65F180E412C007D18F6 /* CZAppDelegate.h */,
 				2E84A660180E412C007D18F6 /* CZAppDelegate.m */,
+				2E84A68A180E4280007D18F6 /* FrontViewController.h */,
+				2E84A68B180E4280007D18F6 /* FrontViewController.m */,
+				2E84A68D180E4A41007D18F6 /* LeftMasterViewController.h */,
+				2E84A68E180E4A41007D18F6 /* LeftMasterViewController.m */,
+				2E84A690180E4A6B007D18F6 /* RightSettingViewController.h */,
+				2E84A691180E4A6B007D18F6 /* RightSettingViewController.m */,
 				2E84A662180E412C007D18F6 /* Images.xcassets */,
+				2E84A693180E52B5007D18F6 /* CustomCells */,
 				2E84A657180E412C007D18F6 /* Supporting Files */,
 			);
 			path = Noted7;
@@ -142,6 +227,32 @@
 				2E84A672180E412C007D18F6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E84A67F180E41A0007D18F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E84A680180E41A0007D18F6 /* PKRevealController.h */,
+				2E84A681180E41A1007D18F6 /* PKRevealController.m */,
+				2E84A682180E41A1007D18F6 /* PKRevealControllerContainerView.h */,
+				2E84A683180E41A1007D18F6 /* PKRevealControllerContainerView.m */,
+				2E84A684180E41A1007D18F6 /* UIViewController+PKRevealController.h */,
+				2E84A685180E41A1007D18F6 /* UIViewController+PKRevealController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E84A693180E52B5007D18F6 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				2E84A694180E52E3007D18F6 /* CustomTextCell.h */,
+				2E84A695180E52E3007D18F6 /* CustomTextCell.m */,
+				2E84A697180E55CD007D18F6 /* CustomCellContent.h */,
+				2E84A698180E55CD007D18F6 /* CustomCellContent.m */,
+				2E84A69D180E585C007D18F6 /* CustomImageCell.h */,
+				2E84A69E180E585C007D18F6 /* CustomImageCell.m */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +331,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3AB96A1813ADF5002326C2 /* photo.png in Resources */,
+				2E847540180FBFD900A84505 /* KeyAcc.xib in Resources */,
 				2E84A65B180E412C007D18F6 /* InfoPlist.strings in Resources */,
+				2E3AB96D1813AED6002326C2 /* camera24@2x.png in Resources */,
+				2E3AB96E1813AED6002326C2 /* camera24.png in Resources */,
 				2E84A663180E412C007D18F6 /* Images.xcassets in Resources */,
+				2E3AB9651813A757002326C2 /* camera@2x.png in Resources */,
+				2E3AB9661813A757002326C2 /* camera.png in Resources */,
+				2E3AB9691813ADF5002326C2 /* photo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +358,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E84A68C180E4280007D18F6 /* FrontViewController.m in Sources */,
+				2E3AB96118138C32002326C2 /* DAKeyboardControl.m in Sources */,
+				2E84A687180E41A1007D18F6 /* PKRevealControllerContainerView.m in Sources */,
+				2E84A696180E52E3007D18F6 /* CustomTextCell.m in Sources */,
+				2E84A692180E4A6B007D18F6 /* RightSettingViewController.m in Sources */,
+				2E84A699180E55CD007D18F6 /* CustomCellContent.m in Sources */,
+				2E84A686180E41A1007D18F6 /* PKRevealController.m in Sources */,
+				2E84A69F180E585C007D18F6 /* CustomImageCell.m in Sources */,
+				2E84A688180E41A1007D18F6 /* UIViewController+PKRevealController.m in Sources */,
 				2E84A65D180E412C007D18F6 /* main.m in Sources */,
+				2E84A68F180E4A41007D18F6 /* LeftMasterViewController.m in Sources */,
 				2E84A661180E412C007D18F6 /* CZAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +572,7 @@
 				2E84A67B180E412C007D18F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E84A67C180E412C007D18F6 /* Build configuration list for PBXNativeTarget "Noted7Tests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +581,7 @@
 				2E84A67E180E412C007D18F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

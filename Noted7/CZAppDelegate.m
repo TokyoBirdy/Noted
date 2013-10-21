@@ -7,16 +7,42 @@
 //
 
 #import "CZAppDelegate.h"
-
+#import "FrontViewController.h"
+#import "PKRevealController.h"
+#import "LeftMasterViewController.h"
+#import "RightSettingViewController.h"
 @implementation CZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // Step 1: Create your controllers.
+    UIViewController *frontViewController = [[FrontViewController alloc] init];
+    UIViewController *rightViewController = [[RightSettingViewController alloc] init];
+    UIViewController *leftViewController = [[LeftMasterViewController alloc] init];
+    
+    // Step 2: Configure an options dictionary for the PKRevealController if necessary - in most cases the default behaviour should suffice. See PKRevealController.h for more option keys.
+    /*
+     NSDictionary *options = @{
+     PKRevealControllerAllowsOverdrawKey : [NSNumber numberWithBool:YES],
+     PKRevealControllerDisablesFrontViewInteractionKey : [NSNumber numberWithBool:YES]
+     };
+     */
+    
+    // Step 3: Instantiate your PKRevealController.
+    self.revealController = [PKRevealController revealControllerWithFrontViewController:frontViewController
+                                                                     leftViewController:leftViewController
+                                                                    rightViewController:rightViewController
+                                                                                options:nil];
+    
+    // Step 4: Set it as your root view controller.
+    self.window.rootViewController = self.revealController;
+    
     [self.window makeKeyAndVisible];
     return YES;
+    
+    // Step 5: Take a look at the Left/RightDemoViewController files. They're self-sufficient as to the configuration of their reveal widths for instance.
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
